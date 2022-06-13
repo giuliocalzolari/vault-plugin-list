@@ -15,6 +15,9 @@ List fo plugin for Hashicorp Vault
 - [vault-plugin-secrets-webhook](https://github.com/idcmp/vault-plugin-secrets-webhook) - Use Vault ACLs to control access to other REST APIs.
 - [vault-plugin-secrets-github](https://github.com/martinbaillie/vault-plugin-secrets-github) - A Vault secrets plugin for creating ephemeral, finely-scoped GitHub access tokens.
 - [vault-plugin-secrets-gitlab](https://github.com/splunk/vault-plugin-secrets-gitlab) - his is a backend plugin to be used with Vault. This plugin generates Gitlab Project Access Tokens
+- [vault-plugin-secrets-kafka](https://github.com/Mongey/vault-plugin-secrets-kafka) A Vault plugin for generating credentials for Apache Kafka clients. Generates a dynamic username and ACL that can be used to create a uniq SSL certificate for a Kafka client.
+- [vault-plugin-auth-vsphere](https://github.com/martezr/vault-plugin-auth-vsphere) This is a standalone backend plugin for use with HashiCorp Vault. This plugin allows for VMware vSphere virtual machines (VMs) to authenticate with Vault. This plugin requires the vAuth platform to be deployed and configured.
+- [argocd-vault-plugin](https://github.com/legalzoom/argocd-vault-plugin) Vault ArgoCD Secret plugin is a secrets engine plugin for HashiCorp Vault that allows for the generation and usage of short-term credentials for ArgoCD.
 
 # Ops
 - https://github.com/hootsuite/vault-ctrl-tool - Outsource authentication, secrets fetching, and lease management for services.
