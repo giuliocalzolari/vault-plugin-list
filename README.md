@@ -18,6 +18,7 @@ List fo plugin for Hashicorp Vault
 - [vault-plugin-secrets-kafka](https://github.com/Mongey/vault-plugin-secrets-kafka) A Vault plugin for generating credentials for Apache Kafka clients. Generates a dynamic username and ACL that can be used to create a uniq SSL certificate for a Kafka client.
 - [vault-plugin-auth-vsphere](https://github.com/martezr/vault-plugin-auth-vsphere) This is a standalone backend plugin for use with HashiCorp Vault. This plugin allows for VMware vSphere virtual machines (VMs) to authenticate with Vault. This plugin requires the vAuth platform to be deployed and configured.
 - [argocd-vault-plugin](https://github.com/legalzoom/argocd-vault-plugin) Vault ArgoCD Secret plugin is a secrets engine plugin for HashiCorp Vault that allows for the generation and usage of short-term credentials for ArgoCD.
+- [vault-plugin-secrets-jenkins](https://github.com/circa10a/vault-plugin-secrets-jenkins) This is a backend plugin to be used with Hashicorp Vault. This plugin generates ephemeral Jenkins Users and API tokens.
 
 # Ops
 - https://github.com/hootsuite/vault-ctrl-tool - Outsource authentication, secrets fetching, and lease management for services.
