@@ -19,6 +19,11 @@ List fo plugin for Hashicorp Vault
 - [vault-plugin-auth-vsphere](https://github.com/martezr/vault-plugin-auth-vsphere) This is a standalone backend plugin for use with HashiCorp Vault. This plugin allows for VMware vSphere virtual machines (VMs) to authenticate with Vault. This plugin requires the vAuth platform to be deployed and configured.
 - [argocd-vault-plugin](https://github.com/legalzoom/argocd-vault-plugin) Vault ArgoCD Secret plugin is a secrets engine plugin for HashiCorp Vault that allows for the generation and usage of short-term credentials for ArgoCD.
 - [vault-plugin-secrets-jenkins](https://github.com/circa10a/vault-plugin-secrets-jenkins) This is a backend plugin to be used with Hashicorp Vault. This plugin generates ephemeral Jenkins Users and API tokens.
+- [vault-plugin-auth-openstack](https://github.com/summerwind/vault-plugin-auth-openstack) This is a standalone backend plugin for use with Hashicorp Vault. This plugin allows for OpenStack instances to authenticate with Vault.
+- [vault-plugin-splunk](https://github.com/splunk/vault-plugin-splunk) A Hashicorp Vault plugin that aims to securely manage Splunk admin accounts, including secrets rotation for compliance purposes.
+- [vault-plugin-secrets-ccp](https://github.com/LiviusNL/vault-plugin-secrets-ccp) This repository contains the source code for a Vault plugin used to retrieve secrets from the CyberArk Enterprise Password Vault (EVP) using the CyberArk Central Credentials Provider (CCP).
+
+
 
 # Ops
 - https://github.com/hootsuite/vault-ctrl-tool - Outsource authentication, secrets fetching, and lease management for services.
